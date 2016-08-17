@@ -1,6 +1,6 @@
 module.exports = {
   plugins: [
-    [require('babel-plugin-react-transform').default, {
+    [require('@insin/babel-plugin-react-transform').default, {
       transforms: [
         {
           transform: require.resolve('react-transform-hmr'),
